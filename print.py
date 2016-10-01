@@ -1,1 +1,5 @@
-Print("goodbye")
+
+print("goodbye")
+
+print("hello")
+
