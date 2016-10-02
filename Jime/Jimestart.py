@@ -1,5 +1,6 @@
 from Timer import countdown
 from Calculator import calcul
+from Wormy import main as worm
 
 ######main loop########
 
@@ -7,13 +8,21 @@ from Calculator import calcul
 
 
 def menu():
-    print("Select operation.")
-    print("1.Calculator")
-    print("2.Coming soon")
-    print("3.Coming soon")
-    print("4.Coming soon")
-    print("9.Exit")
-    choice = input("Enter choice(1/2/3/4):")
+    print('=========================')
+    print("\n Select operation. \n")
+    print('=========================')
+    print("\n 1.Calculator \n")
+    print('=========================')
+    print("\n 2.Wormy \n")
+    print('=========================')
+    print("\n 3.Coming soon \n")
+    print('=========================')
+    print("\n 4.Coming soon \n")
+    print('=========================')
+    print("\n 9.Exit \n")
+    print('=========================')
+    choice = input("\n Enter choice(1/2/3/4):")
+    print('=========================')
 
     if choice == '9':
         exit()
@@ -21,6 +30,11 @@ def menu():
     if choice == '1':
        calc=calcul()
        menu()
+
+    if choice == '2':
+       wormy=worm()
+       menu()
+
 
     print('=========================')    
     print(' \n \n Coming soon! \n \n')

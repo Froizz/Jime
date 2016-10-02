@@ -22,13 +22,20 @@ def calcul():
 
 
    # take input from the user
+   print('=========================')
    print("Select operation.")
+   print('=========================')
    print("1.Add")
+   print('=========================')
    print("2.Subtract")
+   print('=========================')
    print("3.Multiply")
+   print('=========================')
    print("4.Divide")
+   print('=========================')
    print("9.Exit")
-
+   print('=========================')
+   
    choice = input("Enter choice(1/2/3/4):")
    if choice > '4':
       if choice =='9':
