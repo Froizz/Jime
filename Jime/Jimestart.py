@@ -15,7 +15,7 @@ def menu():
     print('=========================')
     print("\n 2.Wormy \n")
     print('=========================')
-    print("\n 3.Coming soon \n")
+    print("\n 3.The Time (UNAVALIABLE) \n")
     print('=========================')
     print("\n 4.Coming soon \n")
     print('=========================')
@@ -34,6 +34,12 @@ def menu():
     if choice == '2':
        wormy=worm()
        menu()
+
+    if choice == '3':
+        print('\n')
+        print('Sorry UNAVAILIABLE')
+        print('\n')
+        menu()
 
 
     print('=========================')    
